@@ -1,21 +1,19 @@
 programa
 {
-	//atividade 2°
+	
 	funcao inicio(){
 		
-		inteiro idade, anos, meses, dias
+		inteiro anos, meses, dias, totalDias
+		escreva ("anos: ")
+		leia(anos)
+		escreva("meses: ")
+		leia(meses)
+		escreva ("dias: ")
+		leia(dias)
+		escreva ("dias: ")
+		leia(totalDias)
 
 
-		escreva(" Digite sua idade em dias? ")
-		leia (dias)
-		anos = dias /365
-		meses = (dias%365) /30
-		dias = (dias%365) %30
-
-		escreva(" Você tem ", anos ," anos ", meses, " meses ", dias, " dias ")
-		
-		
-		
 		
 		
 		
@@ -30,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 25; 
+ * @POSICAO-CURSOR = 219; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,27 +1,23 @@
 programa
 {
-	//atividade 2°
-	funcao inicio(){
-		
-		inteiro idade, anos, meses, dias
-
-
-		escreva(" Digite sua idade em dias? ")
-		leia (dias)
-		anos = dias /365
-		meses = (dias%365) /30
-		dias = (dias%365) %30
-
-		escreva(" Você tem ", anos ," anos ", meses, " meses ", dias, " dias ")
-		
-		
-		
-		
-		
-		
-		
-		}
+	//atividade 8
+	funcao inicio()
 	{
+
+	inteiro n
+	escreva("Digite um numero: ")
+	leia(n)
+
+	se (n>100){
+			
+	escreva("O número que você digitou é maior que 100 ")
+			
+		}
+	senao se (n>0){
+			
+	escreva("Seu resultado foi: 0 ")
+			
+			}
 		
 	}
 }
@@ -30,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 25; 
+ * @POSICAO-CURSOR = 126; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
