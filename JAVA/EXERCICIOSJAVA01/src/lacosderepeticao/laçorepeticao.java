@@ -1,8 +1,8 @@
-package lacoscondicional;
+package lacosderepeticao;
 
 import java.util.Scanner;
 
-public class Condicional {
+public class laçorepeticao {
 
 	public static void main(String[] args) {
 		
