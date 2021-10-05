@@ -21,7 +21,7 @@ leia(y2)
 
 
 		//processamentos
-		d =  Matematica.arredondar((Matematica.raiz((Matematica.potencia((x2-x1),2)+ Matematica.potencia((y2-y1), 2)),2)),2)
+		d =  Matematica.arrendondar((Matematica.raiz((Matematica.potencia((x2-x1),2)+ Matematica.potencia((y2-y1), 2)),2)),2)
 		//saidas
 		escreva("O valor de d é ",d)
 		
@@ -44,7 +44,7 @@ leia(y2)
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 469; 
+ * @POSICAO-CURSOR = 334; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
