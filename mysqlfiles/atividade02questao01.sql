@@ -47,7 +47,7 @@ where id_classe = 2;
 
 
 -- Pesquisa com LIKE
-SELECT * FROM tb_classes WHERE nome LIKE '%c';
+SELECT * FROM tb_classes WHERE nome LIKE 'c%';
 
 -- Inner Join 
 
